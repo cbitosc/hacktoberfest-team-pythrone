@@ -7,10 +7,10 @@ import time
 def removeComma(s):
 	s = s.split(",")
 	return "".join(s)
-budget=input("enter the budget for the product")
+budget=input("enter the budget for the product you want")
 budget=float(budget)
 Luck=True
-at=input("enter the link  of  your product")
+at=input("enter the link  of  your product(from Amazon")
 you=input("Enter your valid email")
 while(Luck):
 	x = urllib.request.urlopen(at)
