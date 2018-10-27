@@ -17,7 +17,7 @@ msg.add_header('Content-Type', 'text/html')
 
 # Create the body of the message (a plain-text and an HTML version).
 # text = "Hi!\nHow are you?\nHere is the link you wanted:\nhttp://www.python.org"
-html = """hey hi
+html = """hey hi hello
 """
 
 # Record the MIME types of both parts - text/plain and text/html.
