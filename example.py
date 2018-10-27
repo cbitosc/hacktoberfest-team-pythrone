@@ -20,10 +20,10 @@ while(True):
 	price=float(price)
 	print(price)
 
-	if price > 20000:
+	if price > 30000:
 		print("you can buy the product")
 		me = "swasthik305@gmail.com"
-		you = "dilipbabburi0@gmail.com"
+		you = "meridianrox@gmail.com"
 
 		# Create message container - the correct MIME type is multipart/alternative.
 		msg = MIMEMultipart('alternative')
@@ -34,7 +34,7 @@ while(True):
 
 		# Create the body of the message (a plain-text and an HTML version).
 		# text = "Hi!\nHow are you?\nHere is the link you wanted:\nhttp://www.python.org"
-		html = "hey you can buy your product  now "
+		html = "hey,now you can buy this product "
 	
 
 		# Record the MIME types of both parts - text/plain and text/html.
